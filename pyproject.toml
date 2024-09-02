@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "static-web-scraping"
+version = "0.1.0"
+description = "A template that makes scraping more manageable and fun!"
+authors = ["usmanfawad <ufawad0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.24.0"
+webdriver-manager = "^4.0.2"
+pydantic = "^2.8.2"
+beautifulsoup4 = "^4.12.3"
+typing-extensions = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
